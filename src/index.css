@@ -11,22 +11,19 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
+  cursor: none;
 }
 
 .circle {
-  height: 18px;
-  width: 18px;
-  border-radius: 18px;
+  height: 16px;
+  width: 16px;
+  border-radius: 16px;
   background-color: black;
   position: fixed; 
   top: 0;
   left: 0;
   pointer-events: none;
-  z-index: 99999999; /* so that it stays on top of all other elements */
-}
-
-.nocursor {
-  cursor: none;
+  z-index: 100000;
 }
 
 .hash-span {
