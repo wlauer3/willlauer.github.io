@@ -33,28 +33,28 @@ const coords = { x: 0, y: 0 };
 const circles = document.querySelectorAll(".circle");
 
 const colors = [
-  "#e36e5c",
-  "#e36e5c",
-  "#e36e5c",
-  "#e36e5c",
-  "#e36e5c",
-  "#e36e5c",
-  "#e36e5c",
-  "#e36e5c",
-  "#e36e5c",
-  "#e36e5c",
-  "#e36e5c",
-  "#e36e5c",
-  "#e36e5c",
-  "#e36e5c",
-  "#e36e5c",
-  "#e36e5c",
-  "#e36e5c",
-  "#e36e5c",
-  "#e36e5c",
-  "#e36e5c",
-  "#e36e5c",
-  "#e36e5c"
+  "#25a820",
+  "#25a820",
+  "#25a820",
+  "#25a820",
+  "#25a820",
+  "#25a820",
+  "#25a820",
+  "#25a820",
+  "#25a820",
+  "#25a820",
+  "#25a820",
+  "#25a820",
+  "#25a820",
+  "#25a820",
+  "#25a820",
+  "#25a820",
+  "#25a820",
+  "#25a820",
+  "#25a820",
+  "#25a820",
+  "#25a820",
+  "#25a820"
 ];
 
 circles.forEach(function (circle, index) {
@@ -87,7 +87,6 @@ function animateCircles() {
     const nextCircle = circles[index + 1] || circles[0];
     x += (nextCircle.x - x) * 0.4;
     y += (nextCircle.y - y) * 0.4;
-    circle.zindex = nextCircle.zindex - 20;
   });
  
   requestAnimationFrame(animateCircles);
