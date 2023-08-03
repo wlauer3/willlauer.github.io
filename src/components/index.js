@@ -1,10 +1,12 @@
-import { Earth, Ball, Computers, Stars } from './canvas/index';
-import Hero from './components/Hero';
-import Navbar from './components/Navbar';
-import About from './About';
-import Experience from './Experience';
-import Works from './Works';
-import Contact from './Contact';
+import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
+import Hero from "./Hero";
+import Navbar from "./Navbar";
+import About from "./About";
+import Experience from "./Experience";
+import Works from "./Works";
+import Contact from "./Contact";
+import CanvasLoader from "./Loader";
+
 
 export {
   Hero,
@@ -13,8 +15,9 @@ export {
   Experience,
   Works,
   Contact,
-  Earth, 
-  Ball, 
-  Computers, 
-  Stars
-}
+  CanvasLoader,
+  EarthCanvas, 
+  BallCanvas, 
+  ComputersCanvas, 
+  StarsCanvas
+};
