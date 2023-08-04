@@ -5,24 +5,23 @@ import {
     web,
     javascript,
     typescript,
-    html,
     css,
     reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
     starbucks,
     tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
-    threejs,
+    AutoCAD,
+    iFix,
+    Kicad,
+    Fusion360,
+    VisualBasic,
+    chemical,
+    pcb,
+    threedmodel,
+    frontend
   } from "../assets";
   
   export const navLinks = [
@@ -42,31 +41,31 @@ import {
   
   const services = [
     {
-      title: "I'm a Friend",
-      icon: web,
+      title: "PCB Design",
+      icon: pcb,
     },
     {
-      title: "I'm a lover",
-      icon: mobile,
+      title: "3D-Modeling",
+      icon: threedmodel,
     },
     {
-      title: "I'm a joker",
-      icon: backend,
+      title: "Frontend Development",
+      icon: frontend,
     },
     {
-      title: "I'm a midnight toker",
-      icon: creator,
+      title: "Chemical Compounding",
+      icon: chemical,
     },
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "CSS",
+      icon: css,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "VisualBasic",
+      icon: VisualBasic,
     },
     {
       name: "JavaScript",
@@ -81,36 +80,20 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Kicad",
+      icon: Kicad,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "AutoCAD",
+      icon: AutoCAD,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Proficy iFix",
+      icon: iFix,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
+      name: "Fusion360",
+      icon: Fusion360,
     },
   ];
   
