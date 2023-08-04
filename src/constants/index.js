@@ -1,17 +1,8 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
     javascript,
     typescript,
     css,
     reactjs,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
     tripguide,
     AutoCAD,
     iFix,
@@ -24,7 +15,9 @@ import {
     frontend,
     sirnas,
     troy,
-    rovisys
+    rovisys,
+    Elevator,
+    precharge
   } from "../assets";
   
   export const navLinks = [
@@ -145,24 +138,24 @@ import {
     {
       name: "Elevator",
       description:
-        "Made a floor go up and down with lights.",
+        "Scaled-down elevator in a group of 3",
       tags: [
         {
-          name: "VEX KIT",
+          name: "VEX",
           color: "blue-text-gradient",
         },
         {
-          name: "VEX Cortex Coding",
+          name: "Mechanical Pulley System",
           color: "green-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://youtube.com/",
+      image: Elevator,
+      source_code_link: "https://youtu.be/ZlkWH7CBNBE",
     },
     {
       name: "PreCharge Board",
       description:
-        "Made a PCB that precharged an electric car",
+        "Made a PCB for the precharge cylce in an electric car",
       tags: [
         {
           name: "Kicad",
@@ -177,16 +170,16 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: precharge,
+      source_code_link: "https://solarracing.gatech.edu/",
     },
     {
       name: "PicPurge",
       description:
-        "A tool to remove duplicate photos from a designated photo",
+        "A tool to remove duplicate photos from a designated folder",
       tags: [
         {
-          name: "React",
+          name: "ReactJS",
           color: "blue-text-gradient",
         },
         {
@@ -199,7 +192,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Logan-Fouts/PicPurge",
     },
   ];
   
