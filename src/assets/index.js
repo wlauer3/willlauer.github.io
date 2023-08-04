@@ -20,6 +20,9 @@ import iFix from "./tech/iFix.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import sirnas from "./company/sirnas.png";
+import troy from "./company/troy.png";
+import rovisys from "./company/rovisys.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -121,6 +124,9 @@ export {
   pcb,
   threedmodel,
   frontend,
-  chemical
+  chemical,
+  sirnas,
+  troy,
+  rovisys
 };
 

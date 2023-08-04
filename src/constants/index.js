@@ -21,7 +21,10 @@ import {
     chemical,
     pcb,
     threedmodel,
-    frontend
+    frontend,
+    sirnas,
+    troy,
+    rovisys
   } from "../assets";
   
   export const navLinks = [
@@ -101,7 +104,7 @@ import {
     {
       title: "Pizza Chef",
       company_name: "Sirna's",
-      icon: starbucks,
+      icon: sirnas,
       iconBg: "#383E56",
       date: "August 2019 - May 2022",
       points: [
@@ -113,7 +116,7 @@ import {
     {
       title: "Chemical Compounder",
       company_name: "Troy Chemical",
-      icon: tesla,
+      icon: troy,
       iconBg: "#E6DEDD",
       date: "May 2022 - Aug 2022",
       points: [
@@ -126,7 +129,7 @@ import {
     {
       title: "Systems Co-op",
       company_name: "Rovisys",
-      icon: shopify,
+      icon: rovisys,
       iconBg: "#383E56",
       date: "May 2023 - Aug 2023",
       points: [
