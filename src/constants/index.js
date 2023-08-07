@@ -26,12 +26,16 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Experience",
     },
     {
       id: "contact",
       title: "Contact",
     },
+    {
+      id: "resume",
+      title: "Resume",
+    }
   ];
   
   const services = [
@@ -136,8 +140,22 @@ import {
   const projects = [
     {
       name: "Elevator",
-      description:
-        "Scaled-down elevator in a group of 3",
+      description:[
+        "[Date: May 2021] ",
+        "In this project, I was assigned to create a scaled-down ",
+        "elevator with two other classmates. We built it from scratch ", 
+        "with limited parts from a VEX kit and used a VEX Cortex to ",
+        "code logic into it. ",
+        "    ",
+        "Our elevator stood at about 1 meter tall ",
+        "and was equipped with 3 floors, each with call buttons and ",
+        "LED indicators for the position of the elevator. We had to ",
+        "come up with a series of pulleys to hoist the floor of the ",
+        "elevator up, as well as a dual-motor system to allow for a ",
+        "higher carrying capacity. ",
+        "     ",
+        "See link for more information."
+      ],
       tags: [
         {
           name: "VEX",
@@ -153,8 +171,29 @@ import {
     },
     {
       name: "PreCharge Board",
-      description:
-        "Made a PCB for the precharge cylce in an electric car",
+      description: [
+        "[Date: Feb-Apr 2023] ", 
+        "This project is part of a much larger whole that is the SR4 ",
+        "project of Georgia Tech Solar Racing. The SR4 is a ",
+        "solar-powered 4-person vehicle that is set to race in a ",
+        "1500+ mile race Summer of 2024. ",
+        "    ",
+        "The work I did on this project pertains to the precharge cycle. ",
+        "In a team of 4, we created a precharge PCB that controls this ",
+        "precharge cycle. We used KiCad PCB software to design a schematic ",
+        "and PCB for the board before printing it and integrating it into ",
+        "the SR4. ",
+        "     ",
+        "The first step in creating this PCB was simulating and ",
+        "calculating. We used Falstad circuit simulator to see test ",
+        "different resistances and charging times. Next, we compiled ",
+        "our data into a spreadsheet to test different resistor ",
+        "combinations and see the energy dissipation across them. ",
+        "Finally, we designed the schematic and PCB in KiCad before the ",
+        "arduous real-world testing phase. ",
+        "     ",
+        "See link for more information."
+      ],
       tags: [
         {
           name: "Kicad",
@@ -174,9 +213,35 @@ import {
     },
     {
       name: "PicPurge",
-      description:
-        "A tool to remove duplicate photos from a designated folder",
+      description:[
+        "[Date: Jul-Aug 2023] ",
+        "This project is my first international collaboration. I worked ",
+        "with Logan Fouts, who lives in Sweden, to develop the frontend of ",
+        "his application, PicPurge. The Purpose of PicPurge is to remove ",
+        "duplicate photots from a folder automatically. The app was ",
+        "initially developed for Logan's mother to use for her library of ",
+        "1000's of photos. I joined the project in July to help develope ",
+        "the frontend (UI). ",
+        "      ",
+        "PicPurge utiltizes an open-source python api ",
+        "to determine what is a duplicate. This api measures the hamming ",
+        "distance of 2 photos and if they are too similar per the level ",
+        "decided by the user, it is deemed a duplicate and moved into a ",
+        "folder labeled 'duplicates'. The api uses machine-learning so ",
+        "that it is able to compare all different photo sizes. ",
+        "     ",
+        "To make the UI, we used ReactJS. After we developed the UI in ",
+        "React, we packaged it all up in Electron. Electron is a tool ",
+        "that converts webpages into applications for desktop computers. ",
+        "*We used a Figma page to come up with design ideas*",
+        "    ",
+        "See link for more information."
+      ],
       tags: [
+        {
+          name: "Collaboration",
+          color: "pink-text-gradient",
+        },
         {
           name: "ReactJS",
           color: "blue-text-gradient",
@@ -186,9 +251,9 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Collaboration",
-          color: "pink-text-gradient",
-        },
+          name: "Frontend Development",
+          color: "green-pink-gradient",
+        }
       ],
       image: precharge,
       source_code_link: "https://github.com/Logan-Fouts/PicPurge",

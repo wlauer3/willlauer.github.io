@@ -47,9 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm an electrical engineer with experience in stuff and
-        expertise in things. I'm a cool dude who likes to hang.
-        Let's work together to bring your ideas to life!'
+        This website showcases my latest engineering endeavors.
+        Contact me if you have an intersting problem or idea!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
