@@ -3,7 +3,6 @@ import {
     typescript,
     css,
     reactjs,
-    tripguide,
     AutoCAD,
     iFix,
     Kicad,
@@ -191,7 +190,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: precharge,
       source_code_link: "https://github.com/Logan-Fouts/PicPurge",
     },
   ];

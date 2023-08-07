@@ -1,9 +1,8 @@
-import logo from "./logo.svg";
+import logo from "./me.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import css from "./tech/css.png";
-import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
 import typescript from "./tech/typescript.png";
@@ -15,9 +14,6 @@ import iFix from "./tech/iFix.png";
 import sirnas from "./company/sirnas.png";
 import troy from "./company/troy.png";
 import rovisys from "./company/rovisys.png";
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import chemical from "./chemical.png";
 import frontend from "./frontend.png";
 import threedmodel from "./threedmodel.png";
@@ -95,13 +91,9 @@ export {
   menu,
   close,
   css,
-  html,
   javascript,
   reactjs,
   typescript,
-  carrent,
-  jobit,
-  tripguide,
   AutoCAD,
   Fusion360,
   iFix,
