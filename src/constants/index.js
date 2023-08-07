@@ -16,7 +16,7 @@ import {
     troy,
     rovisys,
     Elevator,
-    precharge
+    precharge,
   } from "../assets";
   
   export const navLinks = [
@@ -29,13 +29,14 @@ import {
       title: "Experience",
     },
     {
+      id: "resume",
+      title: "Resume",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
-    {
-      id: "resume",
-      title: "Resume",
-    }
+    
   ];
   
   const services = [
@@ -101,32 +102,33 @@ import {
       title: "Pizza Chef",
       company_name: "Sirna's",
       icon: sirnas,
-      iconBg: "#383E56",
+      iconBg: "#FFEAE5",
       date: "August 2019 - May 2022",
       points: [
-        "Made lotsa pizza",
-        "Trained people to make lotsa pizza.",
-        "Cooked 15 pizza simultaneously at maximum output."
+        "Worked all-throughout high-school and summers part-time.",
+        "Trained 8+ new employees how to properly make pizzas, calzones, and pastas.",
+        "Operated pizza oven and other kitchen equipment safely to protect team members form harm and equipment damage."
       ],
     },
     {
       title: "Chemical Compounder",
       company_name: "Troy Chemical",
       icon: troy,
-      iconBg: "#E6DEDD",
+      iconBg: "#1CC843",
       date: "May 2022 - Aug 2022",
       points: [
-        "Compounded lotsa chemicals.",
-        "Listened closely to Brendan's instructions.",
-        "Carefully planned a complex mystery.",
-        "Ate a hotdog.",
+        "Helped in raising shipping success rate to >90% for the end of Q1 and into Q2.",
+        "<Modified controls to regulate temperature, pressure, feed and flow of liquids and gases.>",
+        "Proficient in operating 4 different forklifts and other heavy machinery (gas & electric)",
+        "Operated industrial mixing equipment.",
+        "Worked 42 hours a week to pay for college expenses"
       ],
     },
     {
       title: "Systems Co-op",
       company_name: "Rovisys",
       icon: rovisys,
-      iconBg: "#383E56",
+      iconBg: "#98FFF5",
       date: "May 2023 - Aug 2023",
       points: [
         "Collaborated in AutoCAD projects.",
@@ -136,7 +138,6 @@ import {
       ],
     },
   ];
-  
   const projects = [
     {
       name: "Elevator",

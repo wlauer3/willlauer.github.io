@@ -8,6 +8,12 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
+const defaultOptions = {
+	max:            25,     // max tilt rotation (degrees)
+  scale:          1,
+	speed:          450,   // Speed of the enter/exit transition
+}
+
 const ProjectCard = ({
   index,
   name,
@@ -18,12 +24,7 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
+      <Tilt options={{defaultOptions}}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
