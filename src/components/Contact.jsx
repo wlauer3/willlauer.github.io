@@ -1,18 +1,20 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
+import emailjs from "emailjs-com";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import.meta.env.VITE_APP_EMAILJS_SERVICE_ID
-import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID
-import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
 
 const Contact = () => {
+  const serviceID = "service_3dportfolio"
+  const templateID = 'template_oouuola';
+  const userID = 'uy9XzOqjKVBzXGZOB';
+
+
   const formRef = useRef();
-  const [form, setForm] = useState({
+  const [form, setForm] = useState({ 
     name: "",
     email: "",
     message: "",
@@ -33,35 +35,24 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+  
     emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: "William Lauer",
-          from_email: form.email,
-          to_email: "willlauer4@gmail.com",
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-      )
+      .sendForm(serviceID, templateID, formRef.current, userID) // Use formRef.current here
       .then(
         () => {
           setLoading(false);
           alert("Thank you. I will get back to you as soon as possible.");
-
+  
           setForm({
-            name: "",
-            email: "",
+            from_name: "",
+            from_email: "",
             message: "",
           });
         },
         (error) => {
           setLoading(false);
           console.error(error);
-
+  
           alert("Ahh, something went wrong. It's probably my fault.");
         }
       );
