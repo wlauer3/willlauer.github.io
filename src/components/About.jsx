@@ -47,8 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        This website showcases my latest engineering endeavors.
-        Contact me if you have an intersting problem or idea!
+        This website showcases my engineering endeavors, experience,
+        and technical education.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
