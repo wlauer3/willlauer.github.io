@@ -8,7 +8,7 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, name, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
+  <Tilt className='xs:w-[198px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
@@ -19,15 +19,15 @@ const ServiceCard = ({ index, name, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[198px] flex justify-evenly items-center flex-col'
       >
         <img
           src={icon}
           alt='web-development'
-          className='w-16 h-16 object-contain'
+          className='w-17 h-17 object-contain'
         />
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
+        <h3 className='text-white text-[17px] font-bold text-center'>
           {name}
         </h3>
       </div>
@@ -38,7 +38,7 @@ const ServiceCard = ({ index, name, icon }) => (
 
 const Tech = () => {
   return (
-    <div className='flex flex-column flex-wrap justify-center'>
+    <div className='flex flex-column flex-wrap justify-evenly'>
         <h2 className={styles.sectionText}>Tools I Use</h2>
         <div className='mt-20 flex flex-wrap gap-10'>
         {technologies.map((technology, index) => (
