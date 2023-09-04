@@ -118,7 +118,7 @@ import {
       date: "May 2022 - Aug 2022",
       points: [
         "Helped in raising shipping success rate to >90% for the end of Q1 and into Q2.",
-        "<Modified controls to regulate temperature, pressure, feed and flow of liquids and gases.>",
+        "Modified controls to regulate temperature, pressure, feed and flow of liquids and gases.",
         "Proficient in operating 4 different forklifts and other heavy machinery (gas & electric)",
         "Operated industrial mixing equipment.",
         "Worked 42 hours a week to pay for college expenses"
@@ -131,14 +131,14 @@ import {
       iconBg: "#98FFF5",
       date: "May 2023 - Aug 2023",
       points: [
-        "Collaborated in AutoCAD projects.",
-        "Collaborated in iFix HMI projects.",
-        "Utilized VBcode to produce userforms and costomer graphics.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborated on AutoCAD projects (Redline drawing updates for INEOS chemical plant).",
+        "Collaborated on iFix HMI projects.",
+        "Utilized VBcode to produce userforms and customer graphics.",
+        "Participated in code reviews and providing constructive feedback to other developers.",
       ],
     },
   ];
-  const projects = [
+  const collabproj = [
     {
       name: "Elevator",
       description:[
@@ -210,7 +210,7 @@ import {
         },
       ],
       image: precharge,
-      source_code_link: "https://solarracing.gatech.edu/",
+      source_code_link: "https://github.gatech.edu/GTSR/board-precharge-board",
     },
     {
       name: "PicPurge",
@@ -221,12 +221,12 @@ import {
         "his application, PicPurge. The Purpose of PicPurge is to remove ",
         "duplicate photots from a folder automatically. The app was ",
         "initially developed for Logan's mother to use for her library of ",
-        "1000's of photos. I joined the project in July to help develope ",
+        "1000's of photos. I joined the project in July to help develop ",
         "the frontend (UI). ",
         "      ",
         "PicPurge utiltizes an open-source python api ",
         "to determine what is a duplicate. This api measures the hamming ",
-        "distance of 2 photos and if they are too similar per the level ",
+        "distance of 2 photos and if they are too similar, as per the level ",
         "decided by the user, it is deemed a duplicate and moved into a ",
         "folder labeled 'duplicates'. The api uses machine-learning so ",
         "that it is able to compare all different photo sizes. ",
@@ -260,5 +260,39 @@ import {
       source_code_link: "https://github.com/Logan-Fouts/PicPurge",
     },
   ];
+
+
+  const indiproj = [
+    {
+      name: "Accordion Electric Skateboard",
+      description:[
+        "The idea for this project was sparked by having to walk everywhere I wanted to go on my college campus. ",
+        "I always saw people riding electric skaterboard and scooters around but could never justify buyingone myself." ,
+        "So I decided I was going to make one. After a lot of thought, I came up with a collapsible design that would ",
+        "fit inside my backpack. The skateboard would function like one of those old plastic lightsabers that retracted. ",
+        "This project is not finished as of now, but one of my early preliminary wireframe designs is at the top of the website!",
+        "I plan to continue working on this periodically throughout the nexty year or so, eventually welding the metal together ",
+        "for a working prototype.",
+        "     ",
+        "See link for more information."
+      ],
+      tags: [
+        {
+          name: "AutoCAD",
+          color: "green-pink-gradient",
+        },
+        {
+          name: "3D design",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Welding",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Elevator,
+      source_code_link: "https://youtu.be/ZlkWH7CBNBE",
+    },
+  ];
   
-  export { services, technologies, experiences, projects };
+  export { services, technologies, experiences, collabproj, indiproj };
