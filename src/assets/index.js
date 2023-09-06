@@ -20,7 +20,9 @@ import threedmodel from "./threedmodel.png";
 import pcb from "./pcb.png";
 import Elevator from "./Elevator.png";
 import precharge from "./precharge.png";
-
+import saturn from "./tech/saturn.png";
+import Accordionboard from "./Accordionboard.png";
+import picpurge from "./picpurge.png";
 
 const coords = { x: 0, y: 0 };
 const circles = document.querySelectorAll(".circle");
@@ -107,6 +109,9 @@ export {
   troy,
   rovisys,
   Elevator,
-  precharge
+  precharge,
+  saturn,
+  Accordionboard,
+  picpurge
 };
 

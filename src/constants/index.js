@@ -17,6 +17,9 @@ import {
     rovisys,
     Elevator,
     precharge,
+    saturn,
+    Accordionboard,
+    picpurge
   } from "../assets";
   
   export const navLinks = [
@@ -60,6 +63,10 @@ import {
   
   const technologies = [
     {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
       name: "CSS",
       icon: css,
     },
@@ -76,14 +83,6 @@ import {
       icon: typescript,
     },
     {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Kicad",
-      icon: Kicad,
-    },
-    {
       name: "AutoCAD",
       icon: AutoCAD,
     },
@@ -94,6 +93,14 @@ import {
     {
       name: "Fusion360",
       icon: Fusion360,
+    },
+    {
+      name: "Kicad",
+      icon: Kicad,
+    },
+    {
+      name: "Saturn PCB",
+      icon: saturn,
     },
   ];
   
@@ -256,7 +263,7 @@ import {
           color: "green-pink-gradient",
         }
       ],
-      image: precharge,
+      image: picpurge,
       source_code_link: "https://github.com/Logan-Fouts/PicPurge",
     },
   ];
@@ -264,9 +271,9 @@ import {
 
   const indiproj = [
     {
-      name: "Accordion Electric Skateboard",
+      name: "Accordion Electric Skateboard [WIP]",
       description:[
-        "The idea for this project was sparked by having to walk everywhere I wanted to go on my college campus. ",
+        "Date: [WIP] The idea for this project was sparked by having to walk everywhere I wanted to go on my college campus. ",
         "I always saw people riding electric skaterboard and scooters around but could never justify buyingone myself." ,
         "So I decided I was going to make one. After a lot of thought, I came up with a collapsible design that would ",
         "fit inside my backpack. The skateboard would function like one of those old plastic lightsabers that retracted. ",
@@ -290,8 +297,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: Elevator,
-      source_code_link: "https://youtu.be/ZlkWH7CBNBE",
+      image: Accordionboard,
+      source_code_link: "https://github.com/wlauer3/AccordionBoard",
     },
   ];
   
