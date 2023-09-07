@@ -24,7 +24,7 @@ import saturn from "./tech/saturn.png";
 import Accordionboard from "./Accordionboard.png";
 import picpurge from "./picpurge.png";
 import asm from "./tech/asm.png";
-import c from "./tech/c.png";
+import c from "./tech/C.png";
 import python from "./tech/python.png";
 
 const coords = { x: 0, y: 0 };
