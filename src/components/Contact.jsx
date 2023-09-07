@@ -45,7 +45,7 @@ const Contact = () => {
   
           setForm({
             from_name: "",
-            from_email: "",
+            email_id: "",
             message: "",
           });
         },
