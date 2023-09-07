@@ -21,6 +21,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Reach out if you have an <br className='sm:block hidden' />
             interesting problem or idea!
+            
           </p>
         </div>
       </div>

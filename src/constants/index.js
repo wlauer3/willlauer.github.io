@@ -1,6 +1,6 @@
 import {
     javascript,
-    typescript,
+    python,
     css,
     reactjs,
     AutoCAD,
@@ -19,7 +19,9 @@ import {
     precharge,
     saturn,
     Accordionboard,
-    picpurge
+    picpurge,
+    asm,
+    c
   } from "../assets";
   
   export const navLinks = [
@@ -52,7 +54,7 @@ import {
       icon: threedmodel,
     },
     {
-      title: "Frontend Development",
+      title: "FullStack Development",
       icon: frontend,
     },
     {
@@ -63,12 +65,20 @@ import {
   
   const technologies = [
     {
-      name: "React JS",
-      icon: reactjs,
+      name: "C",
+      icon: c,
+    },
+    {
+      name: "Assembly",
+      icon: asm,
     },
     {
       name: "CSS",
       icon: css,
+    },
+    {
+      name: "Python",
+      icon: python,
     },
     {
       name: "VisualBasic",
@@ -79,8 +89,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "React JS",
+      icon: reactjs,
     },
     {
       name: "AutoCAD",
@@ -222,7 +232,7 @@ import {
     {
       name: "PicPurge",
       description:[
-        "[Date: Jul-Aug 2023] ",
+        "[Date: Jul-Sept 2023] ",
         "This project is my first international collaboration. I worked ",
         "with Logan Fouts, who lives in Sweden, to develop the frontend of ",
         "his application, PicPurge. The Purpose of PicPurge is to remove ",
@@ -236,7 +246,10 @@ import {
         "distance of 2 photos and if they are too similar, as per the level ",
         "decided by the user, it is deemed a duplicate and moved into a ",
         "folder labeled 'duplicates'. The api uses machine-learning so ",
-        "that it is able to compare all different photo sizes. ",
+        "that it is able to compare all different photo sizes. As of September 2023, we have introduced a new algorithm for comparing images. ",
+        "Now the api frontloads the enitre image folder and uses mostly CPU to compare the hashes of each image. Before, we would retrieve each individual image from memory (RAM) in batches ",
+        "which would not only take longer, but also use most of the RAM available in the system. For a folder with 10,000 files, our old algorithm would take ~24hours. Now it's just 2 minutes!",
+        "We have also introduced a sort feature that uses TensorFlow AI to indentify what is in each image and put them into categorical folders.",
         "     ",
         "To make the UI, we used ReactJS. After we developed the UI in ",
         "React, we packaged it all up in Electron. Electron is a tool ",
@@ -259,6 +272,10 @@ import {
           color: "green-text-gradient",
         },
         {
+          name: "TensorFlow",
+          color: "green-pink-gradient",
+        },
+        {
           name: "Frontend Development",
           color: "green-pink-gradient",
         }
@@ -274,12 +291,12 @@ import {
       name: "Accordion Electric Skateboard [WIP]",
       description:[
         "Date: [WIP] The idea for this project was sparked by having to walk everywhere I wanted to go on my college campus. ",
-        "I always saw people riding electric skaterboard and scooters around but could never justify buyingone myself." ,
+        "I always saw people riding electric skaterboard and scooters around but could never justify buyingone myself. " ,
         "So I decided I was going to make one. After a lot of thought, I came up with a collapsible design that would ",
         "fit inside my backpack. The skateboard would function like one of those old plastic lightsabers that retracted. ",
-        "This project is not finished as of now, but one of my early preliminary wireframe designs is at the top of the website!",
+        "This project is not finished as of now, but one of my early preliminary wireframe designs is at the top of the website! ",
         "I plan to continue working on this periodically throughout the nexty year or so, eventually welding the metal together ",
-        "for a working prototype.",
+        "for a working prototype. ",
         "     ",
         "See link for more information."
       ],

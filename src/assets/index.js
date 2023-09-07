@@ -23,6 +23,9 @@ import precharge from "./precharge.png";
 import saturn from "./tech/saturn.png";
 import Accordionboard from "./Accordionboard.png";
 import picpurge from "./picpurge.png";
+import asm from "./tech/asm.png";
+import c from "./tech/c.png";
+import python from "./tech/python.png";
 
 const coords = { x: 0, y: 0 };
 const circles = document.querySelectorAll(".circle");
@@ -112,6 +115,9 @@ export {
   precharge,
   saturn,
   Accordionboard,
-  picpurge
+  picpurge,
+  asm,
+  c,
+  python
 };
 
