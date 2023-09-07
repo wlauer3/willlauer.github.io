@@ -44,8 +44,8 @@ const Contact = () => {
           alert("Thank you. I will get back to you as soon as possible.");
   
           setForm({
-            from_name: "",
-            email_id: "",
+            name: "",
+            email: "",
             message: "",
           });
         },
