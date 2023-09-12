@@ -11,7 +11,7 @@ const Resume = () => {
     return(
         <>
             <motion.div variants={textVariant()}>
-                <p className={`${styles.sectionSubText} text-center`}><a href="https://github.com/wlauer3/willlauer.github.io/blob/fa83287602bef5b9942c2260f0e470ab1ef76cd9/Resume1.pdf" target="_blank" rel="noopener noreferrer" className="glow-link">View the PDF</a></p>  
+                <p className={`${styles.sectionSubText} text-center`}><a href="https://github.com/wlauer3/willlauer.github.io/blob/437178fb83b07c57b1e66ec2bd2727872b7f7234/Resume1.pdf" target="_blank" rel="noopener noreferrer" className="glow-link">View the PDF</a></p>  
                 <h2 className={`${styles.sectionHeadText} text-center`}>Resume</h2>
             </motion.div>
 
