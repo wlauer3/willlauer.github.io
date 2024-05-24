@@ -34,6 +34,10 @@ import {
       title: "Experience",
     },
     {
+      id: "works",
+      title: "Works",
+    },
+    {
       id: "resume",
       title: "Resume",
     },
@@ -50,11 +54,11 @@ import {
       icon: pcb,
     },
     {
-      title: "3D-Modeling",
+      title: "PLC & HMI Programming",
       icon: threedmodel,
     },
     {
-      title: "FullStack Development",
+      title: "Emmbedded Systems",
       icon: frontend,
     },
     {

@@ -10,7 +10,7 @@ import { collabproj } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const defaultOptions = {
-	max:            25,     // max tilt rotation (degrees)
+	max:            0,     // max tilt rotation (degrees)
   scale:          1,
 	speed:          450,   // Speed of the enter/exit transition
 }
@@ -102,7 +102,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Here are some indi projects!
+          Here are some solo projects!
 
         </motion.p>
 
