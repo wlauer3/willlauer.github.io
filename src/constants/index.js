@@ -2,11 +2,9 @@ import {
     javascript,
     python,
     css,
-    reactjs,
     AutoCAD,
     iFix,
     Kicad,
-    Fusion360,
     VisualBasic,
     chemical,
     pcb,
@@ -21,7 +19,12 @@ import {
     Accordionboard,
     picpurge,
     asm,
-    c
+    c,
+    labview,
+    wireshark,
+    vhdl,
+    Quartus,
+
   } from "../assets";
   
   export const navLinks = [
@@ -69,6 +72,10 @@ import {
   
   const technologies = [
     {
+      name: "VHDL",
+      icon: vhdl,
+    },
+    {
       name: "C",
       icon: c,
     },
@@ -77,8 +84,8 @@ import {
       icon: asm,
     },
     {
-      name: "CSS",
-      icon: css,
+      name: "JavaScript",
+      icon: javascript,
     },
     {
       name: "Python",
@@ -89,28 +96,32 @@ import {
       icon: VisualBasic,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "CSS",
+      icon: css,
     },
     {
-      name: "React JS",
-      icon: reactjs,
+      name: "Kicad",
+      icon: Kicad,
     },
     {
       name: "AutoCAD",
       icon: AutoCAD,
     },
     {
+      name: "Quartus",
+      icon: Quartus,
+    },
+    {
+      name: "NI LabView",
+      icon: labview,
+    },
+    {
+      name: "Wireshark",
+      icon: wireshark,
+    },
+    {
       name: "Proficy iFix",
       icon: iFix,
-    },
-    {
-      name: "Fusion360",
-      icon: Fusion360,
-    },
-    {
-      name: "Kicad",
-      icon: Kicad,
     },
     {
       name: "Saturn PCB",
@@ -151,6 +162,19 @@ import {
       icon: rovisys,
       iconBg: "#98FFF5",
       date: "May 2023 - Aug 2023",
+      points: [
+        "Collaborated on AutoCAD projects (Redline drawing updates for INEOS chemical plant).",
+        "Collaborated on iFix HMI projects.",
+        "Utilized VBcode to produce userforms and customer graphics.",
+        "Participated in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Information Systems Co-op",
+      company_name: "Rovisys",
+      icon: rovisys,
+      iconBg: "#98FFF5",
+      date: "May 2024 - Aug 2024",
       points: [
         "Collaborated on AutoCAD projects (Redline drawing updates for INEOS chemical plant).",
         "Collaborated on iFix HMI projects.",
